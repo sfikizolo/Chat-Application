@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #f8e9ec;
+}
+
+.wrapper{
+    background: rgba(192, 154, 154, 0.5);
+    width: 460px;
+    border-radius: 16px;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+.form{
+    padding: 25px 30px;
+}
+
+.form header {
+    font-size: 70px;
+    font-weight: 600;
+    background-image: url(/flower.jpeg);
+    background-size: 250px;
+    background-repeat: repeat;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+
+  .form form{
+    margin: 20px 0;
+  }
+
+  .form form .erro-txt{
+    color: #721c24;
+    background: #f39ba2;
+    padding: 8px 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+  }
+
+  .form form .field{
+    display:flex;
+    flex-direction: column;
+  }
+
+
+
+
+  .form form .field input{
+    height:40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border: 1px solid #acc;
+  }
