@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,8 +6,7 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-
-body{
+body {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,14 +14,14 @@ body{
     background: #f8e9ec;
 }
 
-.wrapper{
+.wrapper {
     background: rgba(192, 154, 154, 0.5);
     width: 460px;
     border-radius: 16px;
     box-shadow: 10px 10px 8px #888888;
 }
 
-.form{
+.form {
     padding: 25px 30px;
 }
 
@@ -35,34 +34,53 @@ body{
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-  }
+}
 
-  .form form{
+.form form {
     margin: 20px 0;
-  }
+}
 
-  .form form .erro-txt{
+.form form .error-txt {
     color: #721c24;
     background: #f39ba2;
     padding: 8px 10px;
     text-align: center;
     border-radius: 5px;
     margin-bottom: 20px;
+}
 
-  }
-
-  .form form .field{
-    display:flex;
+.form form .field {
+    display: flex;
     flex-direction: column;
-  }
+    position: relative;
+}
 
-
-
-
-  .form form .field input{
-    height:40px;
+.form form .field input {
+    height: 40px;
     width: 100%;
     font-size: 16px;
     padding: 0 10px;
     border: 1px solid #acc;
-  }
+}
+
+.form form .image input {
+    font-size: 17px;
+}
+
+.form form .button {
+    padding-top: 20px;
+}
+
+.form form .button input {
+    background-color: #1e252b;
+    color: white;
+}
+
+.form form i {
+    position: absolute;
+    right: 15px;
+    color: #acc;
+    top: 70%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
