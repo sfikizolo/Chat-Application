@@ -84,3 +84,37 @@ body {
     transform: translateY(-50%);
     cursor: pointer;
 }
+
+
+/* users */
+ 
+.users {
+    padding: 25px 30px;
+} 
+
+.users header .content img{
+    height: 50px;
+    width: 50px;
+}
+
+.users header .details span{
+    font-size: 18px;
+    font-weight:bolder;
+
+}
+
+.users header .logout{
+   
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+
+.wrapper img{
+    object-fit:cover;
+    border-radius: 75%;
+}
+
+
