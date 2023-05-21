@@ -112,6 +112,12 @@ body {
     font-size: 17px;
 }
 
+.users .search button{
+    cursor: pointer;
+    background-color: #1e252b;
+    color: white;
+}
+
 .wrapper img{
     object-fit:cover;
     border-radius: 75%;
