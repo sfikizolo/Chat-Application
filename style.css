@@ -122,5 +122,19 @@ body {
     object-fit:cover;
     border-radius: 75%;
 }
+.userlist .content .details{
+    padding: 30px 0px 30px 0px;
+}
+
+.userlist .status{
+    position:center;
+    right: 150px;
+    color:green;
+    
+}
+
+.userlist .content{
+    overflow-y:scroll;
+}
 
 
