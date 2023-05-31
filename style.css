@@ -12,6 +12,8 @@ body {
     justify-content: center;
     min-height: 100vh;
     background: #f8e9ec;
+    overflow: hidden;
+
 }
 
 .wrapper {
@@ -134,7 +136,13 @@ body {
 }
 
 .userlist .content{
-    overflow-y:scroll;
+    overflow-y:auto;
+    height: 350px;
+}
+
+.userlist  ::-webkit-scrollbar{
+    width: 0px;
+
 }
 
 
